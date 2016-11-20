@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- This application file is the main layout file for this web application -->
+<!-- All the changes that we're made here will be available on all part of the webpage -->
 <html>
 <head>
   <title>GelungSuasa</title>
@@ -7,14 +9,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  
   <%= render 'layouts/navigation' %>
-  
   <div class="container">
-    <%= yield %>
-    
+    <%= yield %> <!-- All file that is in the views folder get display through this tag or section -->
     <%= render 'layouts/footer' %>
-    
   </div>
 </body>
 </html>

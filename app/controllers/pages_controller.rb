@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   
-  def home
+  def home #This is the home action
   end 
   
 end 
