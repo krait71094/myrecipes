@@ -9,7 +9,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= render 'layouts/navigation' %>
+  <%= render 'layouts/navigation' %> <!-- This render command is to get the navigation part of the webpage in the layouts folder -->
   <div class="container">
     <%= yield %> <!-- All file that is in the views folder get display through this tag or section -->
     <%= render 'layouts/footer' %>
